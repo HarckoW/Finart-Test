@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		
+		<title>Finart Culture</title>
+		<link rel="stylesheet" href="LancerProjet.css">
+
+	</head>
+	
+	<body> 
+
+<!-- JAVA MENU -->
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="">Acceuil</a>
+			<a href="">A propos de nous</a>
+			<a href="">Financer un projet</a>
+			<a href="">Lancer un projet</a>
+			<a href="">...</a>
+			
+		</div>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()" id="sideMenu"><img class="logo" src="index.png"><p class="textMenu">Menu</p></span>
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
+	</body>
